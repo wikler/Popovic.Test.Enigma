@@ -1,0 +1,16 @@
+<Project>
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+		<PackageVersion Include="xunit" Version="2.7.0" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="2.5.3" />
+		<PackageVersion Include="coverlet.collector" Version="6.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.14" />
+		<PackageVersion Include="Testcontainers" Version="3.8.0" />
+		<PackageVersion Include="Testcontainers.MySql" Version="3.8.0" />
+		<PackageVersion Include="Testcontainers.MariaDb" Version="3.8.0" />
+	</ItemGroup>
+</Project>
